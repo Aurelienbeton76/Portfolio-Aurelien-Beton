@@ -15,6 +15,35 @@
 	font-weight: 400;
 }
 
+@font-face {
+	font-family: SpaceGrotesk;
+	src: url('./assets/font/SpaceGrotesk-Light.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: SpaceGrotesk;
+	src: url('./assets/font/SpaceGrotesk-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: SpaceGrotesk;
+	src: url('./assets/font/SpaceGrotesk-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: SpaceGrotesk;
+	src: url('./assets/font/SpaceGrotesk-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Gropled;
+	src: url('./assets/font/Gropled-Bold.ttf');
+	font-weight: 700;
+}
+
+
+
 /************ Default Css ************/
 * {
   margin: 0;
@@ -95,7 +124,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+  width: 8%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -250,6 +279,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
+  font-family: SpaceGrotesk;
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -258,7 +288,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: black;
+  font-weight: bold;
+  font-family: SpaceGrotesk;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -276,14 +308,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
   line-height: 1;
 }
 .banner button:hover svg {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  animation: updown 2s linear infinite;
 }
 @keyframes updown {
     0% {
@@ -306,18 +338,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #ffff;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
 .skill h2 {
+  color: black;
+  font-family: SpaceGrotesk;
 	font-size: 45px;
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: black;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -333,10 +367,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
+  background-color: #FFFFFF;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 100%;
   z-index: -4;
 }
 
