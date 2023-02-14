@@ -124,7 +124,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width: 8%;
+  width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -264,6 +264,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/mesh-527.png');
+  /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -336,22 +337,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-color: #46BEED;
 }
 .skill-bx {
-  background: #ffff;
+  /*background-image: radial-gradient(circle at 12.5% 12.5%, #b547ff 0, #803bff 25%, #0033ff 50%, #0031fe 75%, #0033fd 100%);*/ /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  background-color: #7E42D9;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
 .skill h2 {
-  color: black;
+  color: #FFFFFF;
   font-family: SpaceGrotesk;
 	font-size: 45px;
 	font-weight: 700;
 }
 .skill p {
-    color: black;
+    color: #FFFFFF;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -367,6 +370,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
+  
   background-color: #FFFFFF;
   position: absolute;
   bottom: 0;
@@ -378,7 +382,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #D6CFFF;/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 }
 .project h2 {
 	font-size: 45px;
@@ -502,7 +506,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -575,7 +579,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('./assets/img/footer-bg.png');/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
