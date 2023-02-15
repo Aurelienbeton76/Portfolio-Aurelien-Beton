@@ -6,14 +6,14 @@ import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
   const formInitialDetails = {
-    firstName: '',
-    lastName: '',
+    Nom: '',
+    Prénom: '',
     email: '',
-    phone: '',
+    tel: '',
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('Envoyer');
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -25,7 +25,7 @@ export const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setButtonText("Sending...");
+    setButtonText("Envoi en cours...");
     let response = await fetch("http://localhost:5000/contact", {
       method: "POST",
       headers: {
@@ -58,20 +58,20 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
+                <h2>Me contacter</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
+                      <input type="text" value={formDetails.firstName} placeholder="Nom" onChange={(e) => onFormUpdate('Nom', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
+                      <input type="text" value={formDetails.lasttName} placeholder="Prénom" onChange={(e) => onFormUpdate('Prénom', e.target.value)}/>
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
+                      <input type="email" value={formDetails.email} placeholder="Adresse mail" onChange={(e) => onFormUpdate('email', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                      <input type="tel" value={formDetails.phone} placeholder="Numéro de téléphone" onChange={(e) => onFormUpdate('tel', e.target.value)}/>
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
