@@ -39,11 +39,11 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx wow zoomIn"id="skills">
                         <h2>Langages</h2>
                         <p>Ici je vais vous présenter mes différents langages de programmation ainsi que mes outils utilisé. <br></br> <br></br>Ces langages sont des outils précieux pour moi dans le développement de mes projets et ils ont été acquis au fil de mes expériences et de mes formations.<br></br>Je suis fier de les maîtriser et je suis toujours en train de les développer pour devenir un expert dans leur utilisation.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
