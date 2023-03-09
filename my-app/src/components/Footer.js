@@ -11,11 +11,9 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <MailchimpForm />
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
+          
+          <Col size={0} sm={0} className="text-center text-sm-end align-center">
+            <div className="social-icon1">
             <a href="https://www.linkedin.com/in/aurelien-beton-67b16b1a3/"target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/Aurelienbeton76"target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.facebook.com/aurelien.btn76"target="_blank"><img src={navIcon3} alt="" /></a>

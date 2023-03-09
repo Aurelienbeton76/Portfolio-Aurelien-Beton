@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 300);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Salut, je suis ravi de vous rencontrer !","Hello, how are you ?" ];
+  const toRotate = [ "Hello, how are you ?", "Je vous présente mon projet !" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,9 +56,10 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bienvenue sur mon Portfolio</span>
-                <h1> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Salut, je suis ravi de vous rencontrer !", "Hello, how are you ?" ]'><span className="wrap">{text}</span></span></h1>
+                <h1> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hello, how are you ?", "Je vous présente mon projet !" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Je suis Aurélien Beton, développeur full stack JS et je suis âgé de 26 ans. J'ai toujours été passionné par la technologie et le développement web, et je suis fier de vous présenter mon portfolio aujourd'hui.</p>
-                  <button onClick={() => console.log('connect')}>Let's connect ? <ArrowRightCircle size={25} /></button>
+                  <button>Let's connect ?</button>
+
               </div>}
             </TrackVisibility>
           </Col>
