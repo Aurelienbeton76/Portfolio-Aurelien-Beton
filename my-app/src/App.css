@@ -280,7 +280,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .navbar-brand{
     display: flex;
   }
- /* Style pour les liens de la navbar */
+
+
 .navbar-link {
   z-index: 1;
   width: 100%;
@@ -290,31 +291,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none;
 }
 
-/* Style pour le lien actif de la navbar */
+
 .active {
   font-weight: bold;
 }
 
-/* Style pour les icônes sociales de la navbar */
+
 .social-icon {
   display: none;
 }
 
-/* Style pour le bouton de la navbar */
-
-
-/* Style pour la navbar en mode "scrolled" */
 .scrolled {
+  
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Style pour les liens de la navbar en mode "scrolled" */
+
 .scrolled .navbar-link {
   color: #333;
 }
 
-/* Style pour le bouton de la navbar en mode "scrolled" */
+
 .scrolled .vvd {
   background-color: #333;
  ;
@@ -325,13 +323,53 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
+nav.ms-auto {
+  display: flex;
+  justify-content: space-between;
+}
 
+nav.ms-auto {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
 
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  position: absolute;
+  top: 5px;
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 16px;
+  opacity: 0.75;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(1) {
+  left: -5%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(2) {
+  left: 18%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
+  left: 50%;
+}
 
   
 
 
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -503,7 +541,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 }
 
-
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .banner h1 {
+    padding-top: 70px;
+    font-family: SpaceGrotesk;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
 
 
 
