@@ -263,25 +263,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
+/****************************************************************************************************************************************************************************************/
 
-
-
-
-
-
-
-
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-
+@media screen and (min-width: 320px) and (max-width: 350px) {
   .navbar-brand img{
     display: none;
   }
   .navbar-brand{
     display: flex;
   }
-
-
 .navbar-link {
   z-index: 1;
   width: 100%;
@@ -290,39 +280,186 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 30px;
   text-decoration: none;
 }
-
-
 .active {
   font-weight: bold;
 }
-
-
 .social-icon {
   display: none;
 }
-
 .scrolled {
-  
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
 .scrolled .navbar-link {
   color: #333;
 }
-
-
 .scrolled .vvd {
   background-color: #333;
- ;
 }
-
 .basic-navbar-nav{
   z-index: 0;
 }
+nav.ms-auto {
+  display: flex;
+  justify-content: space-between;
+}
+nav.ms-auto {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  position: absolute;
+  top: 5px;
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 16px;
+  opacity: 0.75;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(1) {
+  left: 0;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(2) {
+  left: 25%;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
+  left: 57%;
+}
+.navbar-text button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-left: 10%;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
 
+}
+/****************************************************************************************************************************************************************************************/
 
+@media screen and (min-width: 350px) and (max-width: 390px) {
+  .navbar-brand img{
+    display: none;
+  }
+  .navbar-brand{
+    display: flex;
+  }
+.navbar-link {
+  z-index: 1;
+  width: 100%;
+  height: 5%;
+  top: 20%;
+  padding: 30px;
+  text-decoration: none;
+}
+.active {
+  font-weight: bold;
+}
+.social-icon {
+  display: none;
+}
+.scrolled {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.scrolled .navbar-link {
+  color: #333;
+}
+.scrolled .vvd {
+  background-color: #333;
+}
+.basic-navbar-nav{
+  z-index: 0;
+}
+nav.ms-auto {
+  display: flex;
+  justify-content: space-between;
+}
+nav.ms-auto {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  position: absolute;
+  top: 5px;
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 16px;
+  opacity: 0.75;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(1) {
+  top: 7%;
+  left: 0;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(2) {
+  top: 7%;
+  left: 22%;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
+  top: 7%;
+  left: 52%;
+}
+.navbar-text button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-left: 10%;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+}
+/****************************************************************************************************************************************************************************************/
+
+@media screen and (min-width: 390px) and (max-width: 570px) {
+
+  .navbar-brand img{
+    display: none;
+  }
+  .navbar-brand{
+    display: flex;
+  }
+.navbar-link {
+  z-index: 1;
+  width: 100%;
+  height: 5%;
+  top: 20%;
+  padding: 30px;
+  text-decoration: none;
+}
+.active {
+  font-weight: bold;
+}
+.social-icon {
+  display: none;
+}
+.scrolled {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.scrolled .navbar-link {
+  color: #333;
+}
+.scrolled .vvd {
+  background-color: #333;
+}
+.basic-navbar-nav{
+  z-index: 0;
+}
 nav.ms-auto {
   display: flex;
   justify-content: space-between;
@@ -334,7 +471,6 @@ nav.ms-auto {
   justify-content: flex-end;
   height: 100%;
 }
-
 nav.navbar .navbar-nav .nav-link.navbar-link {
   position: absolute;
   top: 5px;
@@ -345,50 +481,116 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 16px;
   opacity: 0.75;
 }
-
 nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(1) {
-  left: -5%;
+  top: 7%;
+  left: 0;
 }
-
 nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(2) {
-  left: 18%;
+  top: 7%;
+  left: 25%; 
 }
-
 nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
-  left: 50%;
+  top: 7%;
+  left: 55%; 
+}
+nav.ms-auto .navbar-link:not(:last-of-type) {
+  margin-right: 20px;
+}
+.navbar-text button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-left: 10%;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+}
+/****************************************************************************************************************************************************************************************/
+
+@media screen and (min-width: 570px) and (max-width: 767px) {
+  .navbar-brand img{
+    display: none;
+  }
+  .navbar-brand{
+    display: flex;
+  }
+.navbar-link {
+  z-index: 1;
+  width: 100%;
+  height: 5%;
+  top: 20%;
+  padding: 30px;
+  text-decoration: none;
+}
+.active {
+  font-weight: bold;
+}
+.social-icon {
+  display: none;
+}
+.scrolled {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.scrolled .navbar-link {
+  color: #333;
+}
+.scrolled .vvd {
+  background-color: #333;
+}
+.basic-navbar-nav{
+  z-index: 0;
+}
+nav.ms-auto {
+  display: flex;
+  justify-content: space-between;
+}
+nav.ms-auto {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  position: absolute;
+  top: 5px;
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 16px;
+  opacity: 0.75;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(1) {
+  top: 7%;
+  left: 2%; 
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(2) {
+  top: 7%;
+  left: 30%;  
+}
+nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
+  top: 7%;
+  left: 63%;
+}
+.navbar-text button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-top: 10%;
+  left: 100%;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
 }
 
-  
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* styles à appliquer */
-}
-
-
-
-
-
-
-@media screen and (max-width: 1024px) {
-  /* styles à appliquer */
-}
-
-
 
 
 
@@ -604,6 +806,60 @@ nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
   z-index: -4;
 }
 
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .skill {
+    padding: 0 0 50px 0;
+    position: relative;
+    background-color: #46BEED;
+  }
+  .skill-bx {
+    /*background-image: radial-gradient(circle at 12.5% 12.5%, #b547ff 0, #803bff 25%, #0033ff 50%, #0031fe 75%, #0033fd 100%);*/ /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    background-image: radial-gradient(circle at 50% -20.71%, #d0afff 0, #ad97fe 25%, #8080f6 50%, #3c6bee 75%, #005be7 100%);  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+  }
+  .skill h2 {
+    color: #FFFFFF;
+    font-family: SpaceGrotesk;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .skill p {
+      color: #FFFFFF;
+      font-size: 14px;
+      letter-spacing: 0.8px;
+      line-height: 1.9em;
+      margin: 14px 0 75px 0;
+  }
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .skill-slider .item img {
+    width: 80%;
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -4;
+  }
+}
+
+
+
+
+
+
+
 /************ PROJETS *************************************************************************************************************/
 .project {
   padding: 80px 0;
@@ -732,6 +988,33 @@ nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
   z-index: -4;
 }
 
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .project p {
+    color: #B8B8B8;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .project p {
+    color: #B8B8B8;
+    font-size: 19px;
+    letter-spacing: 0.9px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 80%;
+  }
+
+}
+
 /************ ********************** CONTACT ****************************************************************************************************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -838,6 +1121,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
   color: transparent;
 }
 
+/********************************************************************************************************************************************************/
 
 .footer img {
   width: 26%;
@@ -858,6 +1142,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link:nth-of-type(3) {
   flex-direction: column;
 }
 
+
+/********************************************************************************************************************************************************/
 .social-icon1 {
   display: inline-block;
   margin-left: 14px;
@@ -894,4 +1180,80 @@ transition: 0.3s ease-in-out;
 }
 .social-icon1 a:hover img {
 filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+/********************************************************************************************************************************************************/
+
+@media screen and (min-width: 270px) and (max-width: 320px) {
+  .banner-title {
+    font-size: 2.2em;
+    font-weight: 700;
+    font-family: arial;
+    background-image: url('./assets/img/seeyousoon.gif');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 450px) {
+
+  .banner-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: arial;
+    background-image: url('./assets/img/seeyousoon.gif');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .banner-title {
+    font-size: 4em;
+    font-weight: 700;
+    font-family: arial;
+    background-image: url('./assets/img/seeyousoon.gif');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  .banner-title {
+    font-size: 5em;
+    font-weight: 700;
+    font-family: arial;
+    background-image: url('./assets/img/seeyousoon.gif');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+
+  .banner-title {
+    font-size: 6em;
+    font-weight: 700;
+    font-family: arial;
+    background-image: url('./assets/img/seeyousoon.gif');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+  }
 }
